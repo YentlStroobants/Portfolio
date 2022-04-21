@@ -2,3 +2,7 @@
     background-color: black;
     
 }
+.revealUp {
+    opacity: 0;
+    visibility: hidden;
+  }
