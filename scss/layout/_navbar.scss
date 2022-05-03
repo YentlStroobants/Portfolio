@@ -5,13 +5,13 @@
   font-family: $headings-font-family;
   font-weight: $headings-font-weight;
   .navbar-brand {
-    color: $white;
+    color: $black;
   }
   .navbar-nav {
     margin-top: 1rem;
     li.nav-item {
       a.nav-link {
-        color: $white;
+        color: $black;
         &:hover {
           color: $primary;
         }
