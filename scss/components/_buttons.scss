@@ -25,6 +25,13 @@
   border-color: $primary;
 }
 
+.btn-card:hover{
+  color:$black;
+  border-color: $primary;
+  background-color: fade-out($gray-200, 0.5);
+}
+
+
 // Scroll to top button
 .scroll-to-top {
   z-index: 1042;
