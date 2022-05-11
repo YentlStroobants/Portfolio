@@ -29,6 +29,9 @@
   color:$black;
   border-color: $primary;
   background-color: fade-out($gray-200, 0.5);
+  transform:scale(1.04);
+  transition: .5s;
+  
 }
 
 
