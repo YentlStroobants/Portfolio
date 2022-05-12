@@ -9639,6 +9639,10 @@ a.text-dark:hover, a.text-dark:focus {
   transition: .5s;
 }
 
+.close:focus {
+  outline: none;
+}
+
 .scroll-to-top {
   z-index: 1042;
   right: 1rem;
