@@ -3,8 +3,9 @@
   padding: 1rem 1.75rem;
   font-size: 1.25rem;
 }
+
 .btn-secondary {
-  border-color:$primary;
+  border-color: $primary;
 }
 
 // Custom social buttons
@@ -17,21 +18,22 @@
   font-size: 1.25rem;
   justify-content: center;
   align-items: center;
-  color:$black;
-  
+  color: $black;
+
 }
-.btn-social:hover{
-  color:$primary;
+
+.btn-social:hover {
+  color: $primary;
   border-color: $primary;
 }
 
-.btn-card:hover{
-  color:$black;
+.btn-card:hover {
+  color: $black;
   border-color: $primary;
   background-color: fade-out($gray-200, 0.5);
-  transform:scale(1.04);
+  transform: scale(1.04);
   transition: .5s;
-  
+
 }
 
 .close:focus {
@@ -45,11 +47,12 @@
   right: 1rem;
   bottom: 1rem;
   display: none;
+
   a {
     width: 3.5rem;
     height: 3.5rem;
     background-color: fade-out($gray-900, 0.5);
     line-height: 3.1rem;
-    
+
   }
 }
