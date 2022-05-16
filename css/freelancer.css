@@ -9657,72 +9657,6 @@ a.text-dark:hover, a.text-dark:focus {
   line-height: 3.1rem;
 }
 
-#mainNav {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 700;
-}
-
-#mainNav .navbar-brand {
-  color: #000;
-}
-
-#mainNav .navbar-nav {
-  margin-top: 1rem;
-}
-
-#mainNav .navbar-nav li.nav-item a.nav-link {
-  color: #000;
-}
-
-#mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #11aeec;
-}
-
-#mainNav .navbar-nav li.nav-item a.nav-link:active {
-  color: #11aeec;
-}
-
-#mainNav .navbar-nav li.nav-item a.nav-link:focus {
-  color: #11aeec;
-}
-
-#mainNav .navbar-toggler {
-  font-size: 80%;
-  padding: 0.8rem;
-}
-
-@media (min-width: 992px) {
-  #mainNav {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    transition: padding-top 0.3s, padding-bottom 0.3s;
-  }
-  #mainNav .navbar-brand {
-    font-size: 1.75em;
-    transition: font-size 0.3s;
-  }
-  #mainNav .navbar-nav {
-    margin-top: 0;
-  }
-  #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-    color: #fff;
-    background: #11aeec;
-  }
-  #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-    color: #fff;
-    background: #11aeec;
-  }
-  #mainNav.navbar-shrink {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-  }
-  #mainNav.navbar-shrink .navbar-brand {
-    font-size: 1.5em;
-  }
-}
-
 .loader-wrapper {
   width: 100%;
   height: 100%;
@@ -9737,8 +9671,8 @@ a.text-dark:hover, a.text-dark:focus {
 
 .loader {
   display: inline-block;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   position: fixed;
   border: 4px solid #11aeec;
   -webkit-animation: loader 2s infinite ease;
@@ -9749,7 +9683,7 @@ a.text-dark:hover, a.text-dark:focus {
   vertical-align: top;
   display: inline-block;
   width: 100%;
-  background-color: #fcfcfc;
+  background-color: #11aeec;
   -webkit-animation: loader-inner 2s infinite ease-in;
   animation: loader-inner 2s infinite ease-in;
 }
@@ -9830,6 +9764,72 @@ body {
   margin: 0;
   padding: 0;
   background-color: white;
+}
+
+#mainNav {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+}
+
+#mainNav .navbar-brand {
+  color: #000;
+}
+
+#mainNav .navbar-nav {
+  margin-top: 1rem;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link {
+  color: #000;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+  color: #11aeec;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:active {
+  color: #11aeec;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:focus {
+  color: #11aeec;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 80%;
+  padding: 0.8rem;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+  }
+  #mainNav .navbar-brand {
+    font-size: 1.75em;
+    transition: font-size 0.3s;
+  }
+  #mainNav .navbar-nav {
+    margin-top: 0;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+    color: #fff;
+    background: #11aeec;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+    color: #fff;
+    background: #11aeec;
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.5em;
+  }
 }
 
 .masthead {
