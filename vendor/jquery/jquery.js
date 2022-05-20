@@ -79,12 +79,6 @@ var isFunction = function isFunction( obj ) {
       // We don't want to classify *any* DOM node as a function.
       return typeof obj === "function" && typeof obj.nodeType !== "number";
   };
-  $(function() {
-    $('.progress-bar').each(function() {
-      var bar_value = $(this).attr('aria-valuenow') + '%';                
-      $(this).animate({ width: bar_value }, { duration: 2000, easing: 'easeOutCirc' });
-    });
-  });
 
 
 var isWindow = function isWindow( obj ) {
