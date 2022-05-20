@@ -39,8 +39,12 @@
   }
 }
 
+p{
+  color:$black
+}
+
 .box{
-  margin-top: 20px;
+  
 	position: absolute;
 	left: 50%;
 	transform: translate(-30%, -30%);

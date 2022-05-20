@@ -9868,8 +9868,11 @@ body {
   }
 }
 
+p {
+  color: #000;
+}
+
 .box {
-  margin-top: 20px;
   position: absolute;
   left: 50%;
   transform: translate(-30%, -30%);
