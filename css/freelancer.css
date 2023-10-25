@@ -9498,6 +9498,9 @@ a.text-dark:hover, a.text-dark:focus {
 
 .page-section {
   padding: 6rem 0;
+  background-size: 300px;
+  background-image: "/img/background.png";
+  background-color: #faf8f8;
 }
 
 .page-section .page-section-heading {
@@ -9571,9 +9574,36 @@ a.text-dark:hover, a.text-dark:focus {
   color: #000;
 }
 
-.btn-social:hover {
-  color: #11aeec;
+.btn-diploma {
+  border-radius: 100%;
+  border-color: black;
+  display: inline-flex;
+  justify-content: center;
+  width: 2.75rem;
+  height: 2rem;
+  align-items: center;
+  color: #000;
+}
+
+.btn-diploma:hover {
+  border-radius: 100%;
   border-color: #11aeec;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: #11aeec;
+}
+
+.btn-social:hover {
+  border-radius: 100%;
+  border-color: #11aeec;
+  display: inline-flex;
+  width: 3.25rem;
+  height: 3.25rem;
+  font-size: 1.25rem;
+  justify-content: center;
+  align-items: center;
+  color: #11aeec;
 }
 
 .btn-card:hover {

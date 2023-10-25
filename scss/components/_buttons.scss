@@ -22,9 +22,34 @@
 
 }
 
-.btn-social:hover {
-  color: $primary;
+.btn-diploma {
+  border-radius: 100%;
+  border-color: black;
+  display: inline-flex;
+  justify-content: center;
+  width: 2.75rem;
+  height: 2rem;
+  align-items: center;
+  color: $black;
+}
+.btn-diploma:hover {
+  border-radius: 100%;
   border-color: $primary;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: $primary;
+}
+.btn-social:hover {
+  border-radius: 100%;
+  border-color: $primary;
+  display: inline-flex;
+  width: 3.25rem;
+  height: 3.25rem;
+  font-size: 1.25rem;
+  justify-content: center;
+  align-items: center;
+  color: $primary;
 }
 
 .btn-card:hover {
